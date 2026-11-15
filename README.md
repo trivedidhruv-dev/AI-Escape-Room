@@ -1,6 +1,24 @@
-# WARDEN — AI-Powered Heist Escape Room
-> **Demonstrating LLM State Failure Modes and Deterministic Architectural Remediation**  
-> *Built with Google GenAI SDK (`gemini-3.5-flash-lite` & `gemini-3.8-flash`), Streamlit, Pydantic, and Python.*
+# 🚨 WARDEN — AI-Powered Heist Escape Room
+
+<div align="center">
+
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io)
+[![Google Gemini](https://img.shields.io/badge/Google_Gemini-8E75C2?style=for-the-badge&logo=googlegemini&logoColor=white)](https://ai.google.dev)
+[![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white)](https://pydantic.dev)
+[![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)](https://pytest.org)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/trivedidhruv-dev/AI-Escape-Room?style=social)](https://github.com/trivedidhruv-dev/AI-Escape-Room/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/trivedidhruv-dev/AI-Escape-Room?style=social)](https://github.com/trivedidhruv-dev/AI-Escape-Room/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/trivedidhruv-dev/AI-Escape-Room)](https://github.com/trivedidhruv-dev/AI-Escape-Room/issues)
+
+**Demonstrating LLM State Failure Modes and Deterministic Architectural Remediation**
+
+*Dual-Model Architecture · gemini-3.5-flash-lite · gemini-3.8-flash · Deterministic Python State Machine · Streamlit HUD*
+
+[Architecture](#3-system-architectures) · [Comparison](#4-key-architectural-comparison) · [Installation & Quickstart](#6-installation--quickstart) · [Evaluation Test Cases](#7-demonstrated-test-cases--vulnerability-analysis) · [Tech Stack](#8-technology-stack)
+
+</div>
 
 ---
 
@@ -215,3 +233,16 @@ The test suite in [`tests/test_assignment_cases.py`](file:///h:/ML%20deep%20lear
 
 ## 9. License & Academic Attribution
 Developed as part of the Deep Learning & Generative AI Coursework. Demonstrates practical LLM integration patterns, deterministic state machines, and AI application security.
+
+---
+
+<div align="center">
+
+**If this project helps you or inspires your AI architecture, please give it a ⭐ — it helps others discover it!**
+
+[![Star History Chart](https://api.star-history.com/svg?repos=trivedidhruv-dev/AI-Escape-Room&type=Date)](https://star-history.com/#trivedidhruv-dev/AI-Escape-Room&Date)
+
+*Built with passion for Reliable Generative AI.*
+
+</div>
+
