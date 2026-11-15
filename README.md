@@ -144,19 +144,19 @@ Inside `.env`:
 GEMINI_API_KEY=AIzaSyYourActualGeminiAPIKeyHere
 ```
 
-### 3. Running Version 1 (Baseline)
+### 3. Launching the Unified Application (Recommended)
+Launch the unified app featuring both versions and the live Side-by-Side Comparison Arena:
 ```bash
-streamlit run v1_baseline/app.py
+streamlit run app.py
 ```
-*Observe how WARDEN can be social-engineered, accepts hallucinated lockpicks, or leaks codes.*
+This opens an interface with 3 clean tabs:
+- **⚖️ Side-by-Side Comparison Arena:** Test adversarial prompts (hallucinated lockpicks, system overrides) on both versions simultaneously.
+- **🛡️ Version 2: Reliable Architecture:** Full escape room with deterministic satchel inventory, room indicators, and trace gauge.
+- **⚠️ Version 1: Baseline:** Unconstrained single-LLM conversational chat.
 
-### 4. Running Version 2 (Reliable Architecture)
-```bash
-streamlit run v2_reliable/app.py
-```
-*Experience the high-fidelity heist HUD with deterministic satchel inventory, trace penalties, and prompt-injection immunity.*
+*(Individual versions can also be run independently via `streamlit run v1_baseline/app.py` or `streamlit run v2_reliable/app.py`)*
 
-### 5. Running the Automated Test Suite
+### 4. Running the Automated Test Suite
 ```bash
 pytest tests/ -v
 ```
